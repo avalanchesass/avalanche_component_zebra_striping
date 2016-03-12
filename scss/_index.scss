@@ -1,0 +1,41 @@
+@import 'avalanchesass_component_zebra_striping/style_guide';
+@import 'avalanchesass_component_zebra_striping/variable';
+@import 'avalanchesass_component_zebra_striping/mixin';
+
+/* extract component.css */
+/* extract component_zebra_striping.css */
+/*---
+title:   Example
+name:    component_zebra_striping_example
+section: component_zebra_striping
+---
+
+Zebra striping rows.
+
+```example:html
+<table style="width: 100%;">
+  <tbody class="#{$c-zebra-striping-namespace}">
+    <tr>
+      <td>Lorem</td>
+      <td>Ipsum</td>
+      <td>Dolor</td>
+    </tr>
+    <tr>
+      <td>Lorem</td>
+      <td>Ipsum</td>
+      <td>Dolor</td>
+    </tr>
+    <tr>
+      <td>Lorem</td>
+      <td>Ipsum</td>
+      <td>Dolor</td>
+    </tr>
+  </tbody>
+</table>
+```
+*/
+.#{$c-zebra-striping-namespace} {
+  @include c-zebra-striping();
+}
+/* end extract component_zebra_striping.css */
+/* end extract component.css */

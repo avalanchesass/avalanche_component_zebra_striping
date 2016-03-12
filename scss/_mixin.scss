@@ -1,0 +1,18 @@
+@import 'avalanchesass_component_zebra_striping/style_guide';
+
+/*---
+title:   Mixin
+name:    component_zebra_striping_mixin
+section: component_zebra_striping
+order:   2
+---
+
+```css
+c-zebra-striping()
+```
+*/
+@mixin c-zebra-striping($-color: mix(map-get($cs, a), #fff, 2%)) {
+  > :nth-child(odd) {
+    background-color: $-color;
+  }
+}

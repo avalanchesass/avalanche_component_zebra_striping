@@ -1,0 +1,18 @@
+@import 'avalanchesass_component_zebra_striping/style_guide';
+
+$c-zebra-striping-namespace: '#{map-get($namespace, component)}zebra-striping' !default;
+
+$c-zebra-striping-color: mix(map-get($cs, a), #fff, 2%);
+
+/*---
+title:   Variable
+name:    component_zebra_striping_variable
+section: component_zebra_striping
+order:   3
+---
+
+```css
+$c-zebra-striping-namespace: '#{$c-zebra-striping-namespace}';
+$c-zebra-striping-color: #{$c-zebra-striping-color};
+```
+*/
