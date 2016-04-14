@@ -35,7 +35,7 @@ Zebra striping rows.
 ```
 */
 .#{$c-zebra-striping-namespace} {
-  @include c-zebra-striping();
+  @include c-zebra-striping($c-zebra-striping-color);
 }
 /* end extract component_zebra_striping.css */
 /* end extract component.css */
