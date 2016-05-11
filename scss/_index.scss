@@ -11,8 +11,6 @@ section: component_zebra_striping
 order:   1
 ---
 
-Zebra striping rows.
-
 ```example:html
 <table style="width: 100%;">
   <tbody class="#{$c-zebra-striping-namespace}">

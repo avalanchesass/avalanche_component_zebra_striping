@@ -3,7 +3,6 @@
 $c-zebra-striping-namespace: '#{map-get($namespace, component)}zebra-striping' !default;
 
 $c-zebra-striping-color: mix(map-get($cs, a), #fff, 2%) !default;
-
 /*---
 title:   Variable
 name:    component_zebra_striping_variable
